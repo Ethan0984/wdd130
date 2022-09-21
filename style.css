@@ -1,6 +1,9 @@
-h1{
-    color: aquamarine;
+h1 {
+  color: aquamarine;
 }
-h2{
-    color: deeppink;
+h2 {
+  color: deeppink;
+}
+img {
+  height: 100px;
 }
