@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Righteous&display=swap");
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -6,6 +7,7 @@ nav a {
   text-align: center;
   color: black;
   text-decoration: none;
+  padding: 35px;
 }
 #hero-msg h1 {
   text-align: center;
@@ -25,6 +27,13 @@ main section {
 }
 body {
   background-color: lightblue;
+  font-family: Heebo, Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 0;
 }
 header {
   background-color: #373737;
@@ -34,18 +43,19 @@ nav a:hover {
   color: white;
 }
 h4 {
-  color: #a2faa3;
+  color: black;
 }
-.book {
-  background-color: wheat;
+.book,
+.join {
+  background-color: whitesmoke;
   color: black;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
-.join {
-  background-color: pink;
-  color: #373737;
-  text-decoration: none;
-}
+
 .book:hover {
   background-color: darkseagreen;
   color: black;
@@ -56,19 +66,30 @@ h4 {
 }
 .msg {
   background-color: lightsteelblue;
+  line-height: 1.5em;
+  padding: 35px;
 }
 footer {
   background-color: black;
-  color: #a2faa3;
+  color: white;
+  padding: 25px 50px;
+  padding-top: 15px;
+  margin-top: 200px;
 }
 .home-title {
   color: #373737;
+  font: "Righteous";
+  font-size: 2em;
+  margin-top: 10px;
 }
 .msg h2 {
   color: black;
+  font: "Righteous";
 }
 .msg p {
   color: black;
+  font-size: 0.8em;
+  padding-bottom: 15px;
 }
 footer a {
   color: black;
@@ -85,4 +106,22 @@ footer p a:hover {
 }
 .icon {
   width: 80px;
+  padding-top: 10px;
+}
+#logo_link {
+  padding-top: 5px;
+}
+.social img {
+  padding-top: 15px;
+}
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
+}
+.card-img {
+  border: 10px solid #373737;
+}
+main section img {
+  box-sizing: border-box;
 }
