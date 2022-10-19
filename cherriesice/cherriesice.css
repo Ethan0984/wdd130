@@ -1,0 +1,20 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.item {
+  width: fit-content;
+  height: auto;
+}
+.gridone {
+  background-color: white;
+}
+.gridtwo {
+  background-color: #b9b8b9;
+  font-size: 60px;
+  padding-left: 20%;
+  color: red;
+}
+.text {
+  font-size: 120px;
+}
