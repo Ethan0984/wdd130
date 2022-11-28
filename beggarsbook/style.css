@@ -1,0 +1,51 @@
+nav a {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  padding: 35px;
+  display: block;
+  padding: 15px;
+}
+nav a:hover {
+  color: #383734;
+  background-color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  height: 60px;
+}
+#logo-link {
+  align-self: center;
+  justify-self: center;
+  padding-top: 5px;
+}
+.logo {
+  height: 100px;
+  width: auto;
+}
+body {
+  background-color: #e6d6a8;
+  font-family: Heebo, Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+#backimage {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-top: -100px;
+}
+.cuttingboard {
+  grid-column: 1/8;
+  z-index: -1;
+  width: 100%;
+}
+.home-title {
+  z-index: 1;
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
