@@ -1,3 +1,7 @@
+header{
+  display: grid;
+  grid-template-columns: 150px auto;
+}
 nav a {
   text-align: center;
   color: black;
@@ -5,6 +9,7 @@ nav a {
   padding: 35px;
   display: block;
   padding: 15px;
+  font-size: 30px;
 }
 nav a:hover {
   color: #383734;
@@ -14,7 +19,6 @@ nav {
   display: flex;
   justify-content: space-around;
   padding-top: 20px;
-  height: 60px;
 }
 #logo-link {
   align-self: center;
@@ -24,6 +28,7 @@ nav {
 .logo {
   height: 100px;
   width: auto;
+
 }
 body {
   background-color: #e6d6a8;
@@ -44,8 +49,43 @@ body {
   z-index: -1;
   width: 100%;
 }
-.home-title {
-  z-index: 1;
+#home-title {
   grid-column: 4/5;
-  grid-row: 2/3;
+  font-size: 50px;
+  margin-top: -600px;
+}
+.main-grid{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+.about-title{
+  grid-column: 2/3;
+}
+.about-p{
+  grid-column: 2/4;
+  grid-row: 2/auto;
+}
+.audience-title{
+  grid-column: 5/6; 
+}
+.audience-p{
+  grid-column: 5/7;
+  grid-row: 2/auto;
+}
+.contact-title{
+  grid-column: 8/9;
+}
+.contact-p{
+  grid-column: 8/10;
+  grid-row: 2/auto;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 25px 50px;
+  padding-top: 15px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
