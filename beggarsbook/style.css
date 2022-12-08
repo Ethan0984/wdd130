@@ -1,10 +1,15 @@
+ul, ol, li {
+  list-style-type: none;
+}
+
+/* Home Page*/
 header{
   display: grid;
   grid-template-columns: 150px auto;
 }
 nav a {
   text-align: center;
-  color: black;
+  color: #675182;
   text-decoration: none;
   padding: 35px;
   display: block;
@@ -31,7 +36,7 @@ nav {
 
 }
 body {
-  background-color: #e6d6a8;
+  background-color: #efe1b7;
   font-family: Heebo, Helvetica, sans-serif;
   font-size: 22px;
   margin: 0;
@@ -42,7 +47,7 @@ body {
 #backimage {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  margin-top: -100px;
+  margin-top: -110px;
 }
 .cuttingboard {
   grid-column: 1/8;
@@ -52,7 +57,7 @@ body {
 #home-title {
   grid-column: 4/5;
   font-size: 50px;
-  margin-top: -600px;
+  margin-top: -700px;
 }
 .main-grid{
   display: grid;
@@ -88,4 +93,94 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+
+
+/* Recipe Page Add-ons*/
+#backimage2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-top: -110px;
+}
+.fire {
+  grid-column: 1/8;
+  z-index: -1;
+  width: 100%;
+}
+.recipe-title{
+  grid-column: 4/5;
+  font-size: 50px;
+  margin-top: -800px;
+  color: white;
+}
+.quesadilla{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(8, 100px);
+  margin-top: 100px;
+}
+.quesadilla-title{
+  grid-column: 3/5;
+  grid-row: 1/2;
+}
+.quesadilla-ingredients{
+  grid-column: 2/6;
+  grid-row: 2/4;
+}
+.quesadilla-steps{
+  grid-column: 2/6;
+  grid-row: 5/8;
+}
+.quesadilla-img{
+  grid-column: 7/10;
+  grid-row: 1/auto;
+  width: 100%;
+}
+
+.spaghetti{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(8, 100px);
+  margin-top: 100px;
+}
+.spaghetti-title{
+  grid-column: 7/9;
+  grid-row: 1/2;
+}
+.spaghetti-ingredients{
+  grid-column: 6/10;
+  grid-row: 2/4;
+}
+.spaghetti-steps{
+  grid-column: 6/9;
+  grid-row: 5/8;
+}
+.spaghetti-img{
+  grid-column: 2/5;
+  width: 100%;
+}
+
+.potato{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(8, 100px);
+  margin-top: 100px;
+}
+.potato-title{
+  grid-column: 3/5;
+  grid-row: 1/2;
+}
+.potato-ingredients{
+  grid-column: 2/6;
+  grid-row: 2/4;
+}
+.potato-steps{
+  grid-column: 2/6;
+  grid-row: 7/9;
+}
+.potato-img{
+  grid-column: 6/10;
+  grid-row: 2/auto;
+  width: 100%;
 }
